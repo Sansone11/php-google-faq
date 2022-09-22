@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
     <title>Google Faq</title>
 </head>
 
@@ -13,7 +14,11 @@
     <header class="nav_container">
         <nav class="nav_bar">
             <div class="logo">
-                <img src="./logobis.jpg" alt="">
+                <img src="./google.png" alt="">
+                <div>
+                    <h1>Privacy e termini</h1>
+                </div>
+                
             </div>
             <div class="menu">
                 <ul>
@@ -40,24 +45,17 @@
 
                     foreach ($links as $value) {
                         $option = $value['link'];
-                    ?><?php
-                            ?> <li class="option"><?php
-                                                ?>
+                    ?>
+                             <li class="option">
+                                                
                         <?php
                         echo $option;
                         ?>
                     </li>
                     <?php
-                    ?><?php
 
                     };
-                        ?><?php
                         ?>
-                    <!-- <li><a href="#">Introduzione</a></li>
-                <li><a href="#">Norme sulla privacy</a></li>
-                <li><a href="#">Termini di servizio</a></li>
-                <li><a href="#">Tecnologie</a></li>
-                <li><a href="#">Domande frequenti </a></li> -->
                 </ul>
             </div>
         </nav>
@@ -111,18 +109,18 @@
             ?><li class="title">
 
                     <?php
-                    echo $title;
-                    ?></li><?php
-                        ?><li class="parag">
+                        echo $title;
+                    ?>
+                </li>
+                    <li class="parag">
 
                     <?php
-                    echo $post;
-                    ?></li><?php
+                        echo $post;
+                    ?>
+                </li><?php
 
                     };
-                        ?><?php
-                ?>
-
+                        ?>
         </div>
     </main>
 </body>
