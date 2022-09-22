@@ -66,22 +66,22 @@
             foreach($faq as $value){
                 $title = $value['title'];
                 $post = $value['paragrafo'];
+                ?><li>
+
+                <?php 
+                    echo $title;
+                ?></li><?php
+                ?><li>
+
+                <?php 
+                    echo $post;
+                ?></li><?php
+                
             };
-            var_dump( $title);
-            var_dump( $post);
+            ?><?php
             ?>
              <ul>
-                        <?php
-                              foreach($title as $titles){
-                                ?><li>
-
-                                <?php 
-                                    echo $titles;
-                                ?>
-                                </li>
-                                <?php
-                              } ;
-                        ?>
+                        
 
                 </ul>
         </div>
