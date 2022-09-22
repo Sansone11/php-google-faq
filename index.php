@@ -31,20 +31,41 @@
             <?php
             $faq = [
                 [
-
+                    'title'=>'Come state implementando la recente decisione della Corte di giustizia dell Unione europea (CGUE) relativa al diritto all oblio?',
+                    'paragrafo_1'=>'',
+                    'paragrafo_2'=>'',
+                    'paragrafo_3'=>'',
+                    'paragrafo_4'=>'',
+                    'paragrafo_5'=>'',
                 ],
                 [
-
+                    'title'=>'',
+                    'paragrafo_1'=>'',
+                    'paragrafo_2'=>'',
+                    'paragrafo_3'=>'',
+                    'paragrafo_4'=>'',
                 ],
                 [
-
+                    'title'=>'',
+                    'paragrafo_1'=>'',
+                    'paragrafo_2'=>'',
+                    'paragrafo_3'=>'',
+                    'paragrafo_4'=>'',
                 ],
                 [
-
+                    'title'=>'',
+                    'paragrafo_1'=>'',
+                    'paragrafo_2'=>'',
+                    'paragrafo_3'=>'',
                 ],
                 [
-                    
-                ]
+                    'title'=>'',
+                    'paragrafo_1'=>'',
+                ],
+                [
+                    'title'=>'',
+                    'paragrafo_1'=>'',
+                ],
             ];
             ?>
         </div>
